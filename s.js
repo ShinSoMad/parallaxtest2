@@ -12,6 +12,7 @@ const plannetPage = document.getElementById("plannet_main_inner")
 
 const futor = document.getElementById("futor")
 
+
 function foter(div){
     if(div == pageOne){
         pageOne.classList.add("active")
@@ -26,7 +27,7 @@ function foter(div){
         walletPage.style.display = "none"
         plannetPage.style.display = "none"
 
-        futor.style.paddingTop = "0" + "vh"
+        futor.style.marginTop = "0" + "vh"
     }else if(div == pageTwo){
         pageOne.classList.remove("active")
         pageThre.classList.remove("active")
@@ -40,7 +41,7 @@ function foter(div){
         walletPage.style.display = "none"
         plannetPage.style.display = "none"
 
-        futor.style.paddingTop = "73" + "vh"
+        futor.style.marginTop = "73" + "vh"
     }else if(div == pageThre){
         pageOne.classList.remove("active")
         pageThre.classList.add("active")
@@ -54,7 +55,7 @@ function foter(div){
         walletPage.style.display = "none"
         plannetPage.style.display = "none"
 
-        futor.style.paddingTop = "73" + "vh"
+        futor.style.marginTop = "73" + "vh"
     }
     else if(div == pageFour){
         pageOne.classList.remove("active")
@@ -69,7 +70,7 @@ function foter(div){
         walletPage.style.display = "block"
         plannetPage.style.display = "none"
 
-        futor.style.paddingTop = "73" + "vh"
+       futor.style.marginTop = "73" + "vh"
     }
     else if(div == pageFive){
         pageOne.classList.remove("active")
@@ -84,7 +85,6 @@ function foter(div){
         walletPage.style.display = "none"
         plannetPage.style.display = "block"
 
-        futor.style.paddingTop = "73" + "vh"
+        futor.style.marginTop = "73" + "vh"
     }
 }
-
