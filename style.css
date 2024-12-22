@@ -394,4 +394,22 @@ li{
     font-size: 40px;
     font-weight: 600;
     color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wallet_but button img{
+    width: 10%;
+    padding-left: 5%;
+}
+.plannet_content{
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+.plannet_content{
+    font-size: 40px;
 }
